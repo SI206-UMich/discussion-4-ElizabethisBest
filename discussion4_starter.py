@@ -47,7 +47,7 @@ class Rectangle():
         if not self.verify_input():
             return "Invalid input"
         else:
-            return self.wid * self.ht * 1/2
+            return self.wid * self.ht * 2
 
 
 
@@ -61,7 +61,7 @@ class Rectangle():
         if not self.verify_input():
             return "Invalid input"
         else:
-            return self.wid + self.ht + 
+            return (self.wid + self.ht) * 2
         
     
 
